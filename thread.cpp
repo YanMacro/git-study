@@ -14,7 +14,7 @@ void add10000(){
 		mtx.unlock();
 	}
 }
-
+// 这是一个纯鼠标提交
 int main(){
 	std::thread t1(add10000);
 	std::thread t2(add10000); 
